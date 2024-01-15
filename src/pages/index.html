@@ -1,19 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/fonts/fonts.css">
+	<link rel="stylesheet" href="../static/styles/style_zero.css">
+	<link rel="stylesheet" href="../static/styles/global.css">
+	<link rel="stylesheet" href="../static/styles/style.css">
+	<link rel="stylesheet" href="../static/styles/media.css">
 	<title>Cyberpunk 2077</title>
 </head>
-<body>
-	<header class="header"></header>
+<body>  
+	<header class="header container">
+		<div class="header__logo">
+			<a href="#" class="header__logo-link">
+				<img src="../static/icons/header/cyberpunk-logo.svg" alt="Cyberpunk 2077" class="header__logo-image">
+			</a>
+		</div>
+		<nav class="header__nav">
+			<ul class="header__list">
+				<li class="header__items">
+					<a href="#" class="header__link">
+						<svg class="header__icons">
+							<use xlink:href="../static/icons/header/sprite.svg#youtube"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="header__items">
+					<a href="#" class="header__link">
+						<svg class="header__icons">
+							<use xlink:href="../static/icons/header/sprite.svg#vk"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="header__items">
+					<a href="#" class="header__link">
+						<svg class="header__icons">
+							<use xlink:href="../static/icons/header/sprite.svg#facebook"></use>
+						</svg>	
+					</a>
+				</li>
+				<li class="header__items">
+					<a href="#" class="header__link">
+						<svg class="header__icons">
+							<use xlink:href="../static/icons/header/sprite.svg#twitter"></use>
+						</svg>	
+					</a>
+				</li>
+				<li class="header__items">
+					<a href="#" class="header__link">
+						<svg class="header__icons">
+							<use xlink:href="../static/icons/header/sprite.svg#twitch"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="header__items">
+					<a href="#" class="header__link">
+						<svg class="header__icons">
+							<use xlink:href="../static/icons/header/sprite.svg#instagram"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="slider">
+		 <div class="slider__line">
+			<img src="../static/images/slider/man.webp" alt="Прекрасные картинки заднего фона" class="slider__images">
+			<img src="../static/images/slider/car.webp" alt="Прекрасные картинки заднего фона" class="slider__images">
+			<img src="../static/images/slider/motorcycle.webp" alt="Прекрасные картинки заднего фона" class="slider__images">
+		 </div>
+	</div>
+	<button class="slider__next">Next</button>
 	<main>
-		<section class="hero"></section>
-		<section class="night-city"></section>
+		<section class="hero container">
+			<div class="hero__wrapper">
+				<h1 class="title hero__title">Доступно на всех платформах</h1>
+				<button class="button hero__button">Узнать больше</button>
+			</div>
+		</section>
+		<section class="nightsisty container">
+			<h2 class="title nightsisty__title">Найт-Сити изменит тебя навсегда!</h2>
+			<p class="nightsisty__text"><span class="nightcity__text_blue">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+			<div class="nightsisty__wrapper">
+				<img src="../static/images/nightsisty/image-top.webp" alt="" class="nightsisty__images">
+				<img src="../static/images/nightsisty/image-bottom.webp" alt="" class="nightsisty__images">
+				<img src="../static/images/nightsisty/image-big.webp" alt="" class="nightsisty__images">
+			</div>
+		</section>
 		<section class="draw"></section>
 		<section class="collaboration"></section>
-		<section class="buy-game"></section>
+		<section class="purchase"></section>
 	</main>
 	<footer class="footer"></footer>
+	<script src="../static/scripts/script.js"></script>
 </body>
 </html>

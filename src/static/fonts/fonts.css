@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Archangelsk";
+	src: url("Archangelsk.woff");
+	font-style: normal;
+  }
+
+  @font-face {
+	font-family: "Roboto";
+	src: url("Roboto-Light.woff2");
+	font-style: normal;
+  }
