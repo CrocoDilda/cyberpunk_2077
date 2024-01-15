@@ -35,6 +35,20 @@ body {
 	line-height: normal;
 }
 
+.text {
+	max-width: 952px;
+	margin-top: 25px;
+	color: var(--coolor-gray);
+	font-family: Roboto;
+	font-size: 1.125rem;
+	font-weight: 700;
+	line-height: 34px; 
+}
+
+.text_blue {
+	color: var(--color-blue);
+}
+
 .button {
 	padding: 15px 50px;
 	line-height: 0px;
