@@ -140,7 +140,7 @@
 	background-color: transparent;
 	width: 105%;
 	font-family: Roboto;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
@@ -328,4 +328,68 @@ position: relative;
 
 .collaboration__button:active {
 	border-color: transparent;
+}
+
+.purchase {
+	display: grid;
+	grid-auto-flow: column;
+	background-color: var(--color-black);
+	padding-right: 320px;
+}
+
+.purchase__image {
+	display: block;
+	width: 50vw;
+}
+
+.purchase__wrapper {
+	padding-top: 70px;
+	margin-left: 32px;
+}
+
+.purchase__title {
+	color: var(--color-white)
+}
+
+.purchase__subtitle {
+	color: var(--color-blue);
+	font-family: Roboto;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.purchase__content {
+	margin-bottom: 75px;
+}
+
+.purchase__item {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.purchase__icons {
+	margin-right: 10px;
+}
+
+.purchase__text {
+	color: var(--color-white);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.purchase__platforms {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	justify-content: space-between;
+    align-items: end;
+	gap: 30px 0;
+	max-width: 319px;
+}
+
+.purchase__platforms:nth-child( 2) {
+	justify-items: end;
 }
