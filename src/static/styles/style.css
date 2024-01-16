@@ -90,6 +90,7 @@
 	position: relative;
 	margin-top: 70px;
 	padding-top: 85px;
+	padding-bottom: 70px;
 	min-height: 814px;
 }
 
@@ -115,12 +116,6 @@
 
 .draw__title {
 	color: var(--color-white);
-}
-
-.draw__promoution {
-}
-
-.draw__text {
 }
 
 .draw__form-wrapper{
@@ -201,9 +196,21 @@
 	background-color: var(--color-yellow-200);
 	color: var(--color-black);
 	font-family: Roboto;
+	border: 3px transparent solid;
 	font-size: 1.125rem;
 	line-height: 1.125rem;
 	font-weight: 700;
+	transition: .2s;
+}
+
+.draw__button:hover {
+	background-color: var(--color-black);
+	color: var(--color-yellow-200);
+	border-color: var(--color-yellow-200);
+}
+
+.draw__button:active {
+	border-color: transparent;
 }
 
 .draw__checkbox {
@@ -255,4 +262,70 @@ position: relative;
 	z-index: 1;
 	left: -160px;
 	top: -20px;
+}
+
+.collaboration {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 0 30px;
+	min-height: 676px;
+	padding-top: 140px;
+	padding-bottom: 70px;
+	background-color: var(--color-yellow-200);
+}
+
+.collaboration__image {
+	max-width: 624px;
+}
+
+.collaboration__wrapper {
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-items: center;
+	margin-top: 26px;
+}
+
+.collaboration__text {
+	color: var(--color-black);
+}
+
+.collaboration__advantages {
+	margin-top: 18px;
+	display: flex;
+	align-items: center;
+}
+
+.collaboration__advantages:first-child {
+	margin-top: 12px;
+}
+
+.collaboration__icons {
+	margin-right: 10px;
+}
+
+.collaboration__text-li  {
+	margin-top: 0;
+	line-height: 1.125rem;
+	color: var(--color-black);
+}
+
+.collaboration__button {
+	margin-top: 45px;
+	color: var(--color-yellow-200);
+	background-color: var(--color-black);
+	font-size: 1.125rem;
+	line-height: 1.125rem;
+	font-weight: 700;
+	border: 3px solid var(--color-black);
+	transition: .2s;
+	}
+
+.collaboration__button:hover {
+	background-color: var(--color-yellow-200);
+	color: var(--color-black);
+}
+
+.collaboration__button:active {
+	border-color: transparent;
 }
