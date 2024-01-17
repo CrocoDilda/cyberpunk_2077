@@ -45,6 +45,10 @@ body {
 	line-height: 34px; 
 }
 
+section {
+
+}
+
 .text_blue {
 	color: var(--color-blue);
 }
@@ -113,4 +117,50 @@ body {
 
 .header__icons:focus {
 	fill: var(--color-white);
+}
+
+.footer__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	min-height: 100px;
+}
+
+.footer__logos {
+	display: flex;
+	align-items: center;
+}
+
+.footer__image {
+	max-height: 74px;
+	margin-left: 32px;
+}
+
+.footer__wrapper {
+	display: flex;
+	align-items: center;
+	justify-self: end;
+}
+
+.footer__text {
+	color: var(--color-black);
+	font-family: Roboto;
+	font-size: 1.125rem;
+	font-weight: 400;
+	margin-right: 32px;
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-black);
+	height: 40px;
+	width: 100vw;
+}
+
+.footer__authoe {
+	color: var(--color-white);
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
 }

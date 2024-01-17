@@ -1,3 +1,5 @@
+
+
 let offset = 0; // смещение от левого края 
 const  sliderLine = document.querySelector('.slider__line'); // к квери слектор записываею класс слайдера
 
@@ -10,3 +12,10 @@ if (offset == 6110) {
 	offset = -3055;
 }
 })
+ 
+
+if (window.matchMedia("(max-width: 1000px)").matches) {
+	console.log(1);
+  } else {
+	console.log(0);
+  } 
