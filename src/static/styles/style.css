@@ -37,27 +37,6 @@
 	clip-path: polygon(30px 0,100% 0,100% calc(100% - 30px), calc(100% - 30px) 100%,0 100%,0 30px);
 }
 
-.hero__button {
-	color: #F8F200;
-	text-align: center;
-	padding: 19px 50px;
-	border: 3px transparent solid;
-	font-size: 1.5rem;
-	font-weight: 700;
-	background-color: var(--color-black);
-	transition: .2s;
-}
-
-.hero__button:hover {
-	background-color: var(--color-yellow-200);
-	color: var(--color-black);
-	border-color: var(--color-black);
-}
-
-.hero__button:active {
-	border-color: transparent;
-}
-
 .nightsity {
 	padding-top: 70px;
 }
@@ -175,7 +154,7 @@
   }
    
 
-  .input__wrapper:hover {
+.input__wrapper:hover {
 	border: 2px solid var(--color-white);
 }
 
@@ -200,27 +179,6 @@
 	font-size: 0.75rem;
 }
 
-.draw__button {
-	background-color: var(--color-yellow-200);
-	color: var(--color-black);
-	font-family: Roboto;
-	border: 3px transparent solid;
-	font-size: 1.125rem;
-	line-height: 1.125rem;
-	font-weight: 700;
-	transition: .2s;
-}
-
-.draw__button:hover {
-	background-color: var(--color-black);
-	color: var(--color-yellow-200);
-	border-color: var(--color-yellow-200);
-}
-
-.draw__button:active {
-	border-color: transparent;
-}
-
 .draw__checkbox {
 	color: #FFF;
 	font-family: Roboto;
@@ -234,16 +192,17 @@
 }
 
 .draw__images {
-	position: relative;
+	display: grid;
+	grid-auto-flow: column;
 }
 
 .draw__ps-5 {
-	position: absolute;
+	position: relative;
 	right: 0px;
 }
 
 .draw__x-box {
-	position: absolute;
+	position: relative;
 	left: 0;
 }
 .draw__image_x-box {
@@ -321,23 +280,7 @@
 
 .collaboration__button {
 	margin-top: 45px;
-	color: var(--color-yellow-200);
-	background-color: var(--color-black);
-	font-size: 1.125rem;
-	line-height: 1.125rem;
-	font-weight: 700;
-	border: 3px solid var(--color-black);
-	transition: .2s;
 	}
-
-.collaboration__button:hover {
-	background-color: var(--color-yellow-200);
-	color: var(--color-black);
-}
-
-.collaboration__button:active {
-	border-color: transparent;
-}
 
 .purchase {
 	display: grid;
