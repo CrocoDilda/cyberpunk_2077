@@ -111,7 +111,6 @@
 		grid-column: 1 / 2;
 	}
 	
-
 	.draw {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto 1fr 1fr;
@@ -167,10 +166,8 @@
 		margin: 0 auto;
 	}
 
-
 	.purchase {
 		grid-auto-flow: row;
-
 	}
 
 	.purchase__image {
